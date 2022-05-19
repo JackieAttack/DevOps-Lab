@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#main-header {
+    text-align: center;
+    font-size: 50px;
+    background-color: #A57982;
+    height: 75px;
+    width: 100vw;
+    border: 10px#302F4D;
+    box-shadow: 4px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302F4D;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+h5 {
+    font-style: italic;
+}
+p {
+    padding: 0%;
+    margin: 7px;
+}
+
+#cat-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cat-unit {
+    margin: 10px;
+    padding: 30px;
+    width: 400px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+img {
+    width: 250px;
+}
