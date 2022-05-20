@@ -50,6 +50,44 @@ p {
     align-items: center;
     background-color: white;
 }
+
+.adopt {
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 img {
     width: 250px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+input {
+    margin: 3px;
+}
+
+#add-adopt {
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#abandon {
+    margin-top: 10px;
 }
